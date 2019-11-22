@@ -55,10 +55,10 @@ namespace CanalNetDevWeek2019
             await Navigation.PushAsync(new CanalNetDevWeek2019.Views.BehaviorValidationPack());
         }
 
-        //public async void MaskedEntry_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new PluginsControlesMVPConf.Views.MaskedEntry());
-        //}
+        public async void Converter_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CanalNetDevWeek2019.Views.ConvertersPack());
+        }
 
         public async void XamarinEssentials_Clicked(object sender, EventArgs e)
         {

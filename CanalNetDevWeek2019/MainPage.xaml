@@ -32,7 +32,7 @@
               <Button Grid.Row="1" Grid.Column="0"  Text="FingerPrint Plugin" Clicked="fingerprint_Clicked" />
               <Button Grid.Row="1" Grid.Column="1"  Text="MultiSelectListView" Clicked="MultiSelectListView_Clicked" />
               <Button Grid.Row="2" Grid.Column="0"  Text="BehaviorValidation Pack" Clicked="BehaviorValidationPack_Clicked" />
-              <!--<Button Grid.Row="2" Grid.Column="1"  Text="MaskedEntry" Clicked="MaskedEntry_Clicked"/>-->
+              <Button Grid.Row="2" Grid.Column="1"  Text="ConvertersPack" Clicked="Converter_Clicked"/>
               <Button Grid.Row="3" Grid.Column="0"  Grid.ColumnSpan="2" Text="Xamarin.Essentials" Clicked="XamarinEssentials_Clicked" />
        </Grid>
             

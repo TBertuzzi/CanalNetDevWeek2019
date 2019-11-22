@@ -15,6 +15,7 @@
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.Forms.BehaviorValidationPack" Version="1.1.0" />
     <PackageReference Include="Xamarin.Forms.MultiSelectListView" Version="2.1.0" />
+    <PackageReference Include="Xamarin.Forms.ConvertersPack" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
