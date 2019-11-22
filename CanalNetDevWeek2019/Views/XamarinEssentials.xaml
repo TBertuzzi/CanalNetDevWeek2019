@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+              Title= "Xamarin.Essentials"
+             ios:Page.UseSafeArea="true"
+             x:Class="CanalNetDevWeek2019.Views.XamarinEssentials">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+        <Label Text="Status da Bateria." FontAttributes="Bold" Margin="12" />
+
+        <ScrollView>
+            <StackLayout Padding="12,0,12,12" Spacing="6">
+                <Label Text="Battery State:" FontAttributes="Bold" Margin="0,6,0,0" />
+                <Label Text="{Binding Level, StringFormat='Charge Level: {0:P1}'}" />
+                <Label Text="{Binding State, StringFormat='State: {0}'}" />
+                <Label Text="{Binding PowerSource, StringFormat='Power Source: {0}'}" />
+                <Label Text="{Binding EnergySaverStatus, StringFormat='Energy Saver: {0}'}" />
+            </StackLayout>
+        </ScrollView>
+            
+       <Label Text="Informações do APP." FontAttributes="Bold" Margin="12" />
+
+        <ScrollView>
+            <StackLayout Padding="12,0,12,12" Spacing="6">
+                <Label Text="App Info:" FontAttributes="Bold" Margin="0,6,0,0" />
+                <Label Text="{Binding AppName, StringFormat='Name: {0}'}" />
+                <Label Text="{Binding AppPackageName, StringFormat='Package Name: {0}'}" />
+
+                <Label Text="Version Info:" FontAttributes="Bold" Margin="0,6,0,0" />
+                <Label Text="{Binding AppVersion, StringFormat='Version: {0}'}" />
+                <Label Text="{Binding AppBuild, StringFormat='Build: {0}'}" />
+
+                <Button Text="Open Settings" Command="{Binding ShowSettingsUICommand}"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

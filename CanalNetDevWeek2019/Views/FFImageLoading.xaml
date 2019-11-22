@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+               Title= "FFImageLoading"
+             ios:Page.UseSafeArea="true"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="CanalNetDevWeek2019.Views.FFImageLoading">
+     <ContentPage.Content>
+       <ScrollView>
+          <StackLayout Margin="10">
+                <Label Text="Efeito : CircleTransformation"  />
+            <ffimageloading:CachedImage
+            WidthRequest="300" HeightRequest="300"
+            DownsampleToViewSize="true"
+            Source = "canalNetDevWeek.jpg">
+                <ffimageloading:CachedImage.Transformations>
+                    <fftransformations:CircleTransformation />
+                </ffimageloading:CachedImage.Transformations>
+            </ffimageloading:CachedImage>
+
+            <Label Text="Efeito : BlurredTransformation"  />
+            <ffimageloading:CachedImage
+            WidthRequest="300" HeightRequest="300"
+            DownsampleToViewSize="true"
+            Source = "canalNetDevWeek.jpg">
+                <ffimageloading:CachedImage.Transformations>
+                    <fftransformations:BlurredTransformation />
+                </ffimageloading:CachedImage.Transformations>
+            </ffimageloading:CachedImage>
+
+            <Label Text="Efeito : GrayscaleTransformation"  />
+            <ffimageloading:CachedImage
+            WidthRequest="300" HeightRequest="300"
+            DownsampleToViewSize="true"
+            Source = "canalNetDevWeek.jpg">
+                <ffimageloading:CachedImage.Transformations>
+                    <fftransformations:GrayscaleTransformation />
+                </ffimageloading:CachedImage.Transformations>
+            </ffimageloading:CachedImage>
+
+            <Label Text="Efeito : SepiaTransformation"  />
+            <ffimageloading:CachedImage
+            WidthRequest="300" HeightRequest="300"
+            DownsampleToViewSize="true"
+            Source = "canalNetDevWeek.jpg">
+                <ffimageloading:CachedImage.Transformations>
+                    <fftransformations:SepiaTransformation />
+                </ffimageloading:CachedImage.Transformations>
+            </ffimageloading:CachedImage>
+
+            <Label Text="Efeito : TintTransformation"  />
+            <ffimageloading:CachedImage
+            WidthRequest="300" HeightRequest="300"
+            DownsampleToViewSize="true"
+            Source = "canalNetDevWeek.jpg">
+                <ffimageloading:CachedImage.Transformations>
+                    <fftransformations:TintTransformation />
+                </ffimageloading:CachedImage.Transformations>
+            </ffimageloading:CachedImage>
+          </StackLayout>
+       </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

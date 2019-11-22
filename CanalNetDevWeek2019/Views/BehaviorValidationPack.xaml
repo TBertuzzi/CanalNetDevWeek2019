@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     xmlns:behaviorPack="clr-namespace:Xamarin.Forms.BehaviorValidationPack;assembly=Xamarin.Forms.BehaviorValidationPack"
+              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+               Title= "BehaviorValidation"
+             ios:Page.UseSafeArea="true"
+    x:Class="CanalNetDevWeek2019.Views.BehaviorValidationPack">
+   <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="CPF" FontSize="Small" />
+            <Entry  Placeholder="CPF" >
+                <Entry.Behaviors>
+                    <behaviorPack:CPFValidationBehavior />
+                    <behaviorPack:MaskedBehavior Mask="XXX.XXX.XXX-XX" />
+                </Entry.Behaviors>
+            </Entry>
+             <Label Text="E-mail" FontSize="Small" />
+             <Entry  Placeholder="E-mail" >
+                <Entry.Behaviors>
+                    <behaviorPack:EmailValidationBehavior />
+                </Entry.Behaviors>
+            </Entry>
+             <Label Text="CEP" FontSize="Small" />
+        <Entry  Placeholder="CEP" >
+            <Entry.Behaviors>
+                <behaviorPack:CEPValidationBehavior />
+                <behaviorPack:MaskedBehavior Mask="XXXXX-XXX" />
+            </Entry.Behaviors>
+        </Entry>
+        <Label Text="CNPJ" FontSize="Small" />
+        <Entry  Placeholder="CNPJ" >
+            <Entry.Behaviors>
+                <behaviorPack:CNPJValidationBehavior />
+                <behaviorPack:MaskedBehavior Mask="XX.XXX.XXX/XXXX-XX" />
+            </Entry.Behaviors>
+        </Entry>
+        <Label Text="CNPJ ou CPF" FontSize="Small" />
+        <Entry  Placeholder="CNPJ ou CPF" >
+            <Entry.Behaviors>
+                <behaviorPack:CPFCNPJValidationBehavior />
+            </Entry.Behaviors>
+        </Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
