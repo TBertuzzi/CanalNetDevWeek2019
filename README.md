@@ -1,4 +1,4 @@
-# CanalNetDevWeek2019
+# Canal.Net Dev Week 2019
 
 ![](https://github.com/TBertuzzi/CanalNetDevWeek2019/blob/master/Resources/canalNetDevWeek.jpg?raw=true)
 
