@@ -40,6 +40,19 @@ namespace CanalNetDevWeek2019.iOS
                 UIApplication.SharedApplication.RegisterUserNotificationSettings(settings);
             }
 
+            //Código para a barra de status do ios aparecer na view
+            UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.LightContent, false);
+            UIApplication.SharedApplication.SetStatusBarHidden(false, false);
+
+            /*
+             * é necessario adicionar no info.plist
+             * 
+              <key>UIViewControllerBasedStatusBarAppearance</key>
+                 <false/>
+                 <key>UIStatusBarHidden</key>
+                 <true/>
+             */
+
 
             global::Xamarin.Forms.Forms.Init();
 

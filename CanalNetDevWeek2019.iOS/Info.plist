@@ -36,5 +36,9 @@
     <string>Assets.xcassets/AppIcon.appiconset</string>
     <key>NSFaceIDUsageDescription</key>
     <string>Need your face to unlock secrets!</string>
+     <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+     <key>UIStatusBarHidden</key>
+     <true/>
 </dict>
 </plist>

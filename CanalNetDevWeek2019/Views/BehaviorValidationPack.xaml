@@ -17,7 +17,7 @@
                 </Entry.Behaviors>
             </Entry>
              <Label Text="E-mail" FontSize="Small" />
-             <Entry  Placeholder="E-mail" >
+             <Entry  Placeholder="E-mail"  >
                 <Entry.Behaviors>
                     <behaviorPack:EmailValidationBehavior />
                 </Entry.Behaviors>

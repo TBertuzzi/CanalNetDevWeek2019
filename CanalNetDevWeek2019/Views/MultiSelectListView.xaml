@@ -12,6 +12,7 @@
             HasUnevenRows="true"
             SeparatorVisibility="Default" 
             ItemsSource="{Binding MVPs}"
+                  BackgroundColor="{StaticResource canalNetEscuro}"
                   lv:MultiSelect.Enable="true">
             <ListView.ItemTemplate>
                 <DataTemplate>

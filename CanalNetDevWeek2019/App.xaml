@@ -1,5 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="CanalNetDevWeek2019.App">
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" x:Class="CanalNetDevWeek2019.App">
     <Application.Resources>
+
+         <Color x:Key="canalNetAmarelo">#eabb33</Color>
+         <Color x:Key="canalNetEscuro">#252525</Color>
+
+      <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="{StaticResource canalNetEscuro}"/>
+        <Setter Property="BarTextColor" Value="{StaticResource canalNetAmarelo}"/>
+      </Style>
+
+         <Style TargetType="Button">
+                <Setter Property="BorderColor" Value="{StaticResource canalNetAmarelo}" />
+                <Setter Property="TextColor" Value="{StaticResource canalNetAmarelo}" />
+                <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="FontAttributes" Value="Bold" />
+             
+         </Style>
+
+         <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource canalNetAmarelo}" />
+         </Style>
+
+          <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="{StaticResource canalNetAmarelo}" />
+               <Setter Property="BackgroundColor" Value="{StaticResource canalNetEscuro}" />
+         </Style>
+
+        <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+            <Setter Property="BackgroundColor" Value="{StaticResource canalNetEscuro}" />
+        </Style>
+
     </Application.Resources>
 </Application>
