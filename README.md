@@ -6,7 +6,7 @@ Conteúdo das Minhas Palestras no Canal.Net Dev Week 2019
 
 ## Plugins e Controles para Xamarin.Forms
 
-Apresentação : 
+Apresentação : https://pt.slideshare.net/ThiagoBertuzzi/plugins-e-controles-para-xamarinforms-canalnet-devweek
 
 Exemplo :
 * https://github.com/TBertuzzi/CanalNetDevWeek2019
@@ -23,5 +23,6 @@ Plugins / Controles Apresentados :
 |Adicionando Mascaras e validações|[Medium](https://medium.com/@bertuzzi/meu-plugin-minha-vida-mascaras-e-valida%C3%A7%C3%B5es-b0544fece880)|[Github](https://github.com/TBertuzzi/Xamarin.Forms.BehaviorValidationPack/)|
 |Mascara de Moeda (Currency), Converters|[Medium](https://medium.com/@bertuzzi/o-x-do-xamarin-forms-mascara-de-moeda-currency-converters-em-a%C3%A7%C3%A3o-769d9f0dc208)|[Github](https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack/tree/master/ConvertersPackSample/)|
 |Xamarin Essentials|[Medium](https://medium.com/@bertuzzi/o-x-do-xamarin-forms-xamarin-essentials-26511f833ba)||
+|Shiny|[Medium](https://medium.com/@bertuzzi/o-mestre-do-background-shiny-parte-1-f9d988a20362)|[Github](https://github.com/TBertuzzi/ExemploShiny/)|
 
 
