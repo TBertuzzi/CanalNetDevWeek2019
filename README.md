@@ -2,7 +2,7 @@
 
 ![](https://github.com/TBertuzzi/CanalNetDevWeek2019/blob/master/Resources/canalNetDevWeek.jpg?raw=true)
 
-Conteúdo das Minhas Palestras no MVPConf
+Conteúdo das Minhas Palestras no Canal.Net Dev Week 2019
 
 ## Plugins e Controles para Xamarin.Forms
 
